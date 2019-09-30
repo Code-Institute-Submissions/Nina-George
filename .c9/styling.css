@@ -1,0 +1,100 @@
+body {
+    padding-top: 100px;
+    font-family: 'Crimson Text', serif;
+    font-size: 100%;
+
+}
+
+.navbar {
+
+    width:100%;
+    font-size: 150%;
+    
+}
+
+.navbar-brand {
+    font-size: 250%;
+
+}
+
+
+.callout-container {
+
+    height: 50vh;
+    background: url(images/front-page.jpg) no-repeat center ;
+    opacity: 0.5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.jumbotron {
+    
+    color: rgb(73, 2, 64);
+    background-color:transparent;
+    text-align:center;
+    
+   }
+
+.jumbotron-header {
+    font-size: 300%;
+    margin-bottom:0px;
+    text-align:center;
+}
+
+.sub-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.visit-container   {
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    align-items: center;
+    justify-content: center; 
+} 
+
+.media {
+    margin-top:30px;
+}
+
+.Birthday-offer {
+    margin-top:30px;
+}
+
+/*Bridal Page CSS overides*/
+
+.bridal-container {
+    height: 100vh;
+    background: url(images/lace.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bridal-jumbotron {
+    color: rgb(73, 2, 64);
+    background-color: transparent;
+}
+
+
+
+/*Contact us Page CSS overides*/
+
+.contact-body {
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
