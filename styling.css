@@ -8,12 +8,12 @@ body {
 .navbar {
 
     width:100%;
-    font-size: 150%;
+    font-size: 1.3em;
     
 }
 
 .navbar-brand {
-    font-size: 250%;
+    font-size: 2.0em;
 
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .visit-container   {
-    padding-top: 100px;
+    padding-top: 30px;
     padding-right: 50px;
     padding-left: 50px;
     align-items: center;
@@ -62,8 +62,21 @@ body {
 } 
 
 .media {
-    margin-top:30px;
-    
+    margin-top:30px; 
+    margin-left: 30px;
+    margin-right: 10px;  
+}
+
+.video-text {
+    /* width: 100vw; */
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.Quotes {
+    /* width: 100vw; */
+    font-family: 'Dancing Script', cursive;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .Birthday-offer {
