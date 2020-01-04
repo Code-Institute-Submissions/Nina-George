@@ -1,32 +1,29 @@
+
+/* Index  */
 body {
     padding-top: 100px;
     font-family: 'Crimson Text', serif;
     font-size: 100%;
-
 }
 
 .navbar {
-
     width:100%;
-    font-size: 1.3em;
-    
+    font-size: 1.3em;  
 }
 
 .navbar-brand {
     font-size: 2.0em;
-
 }
 
 
 .callout-container {
-
     height: 50vh;
     background: url(images/front-page.jpg) no-repeat center ;
     opacity: 0.5;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,12 +31,10 @@ body {
 
 
 .jumbotron {
-    
     color: rgb(73, 2, 64);
     background-color:transparent;
     text-align:center;
-    
-   }
+    }
 
 .jumbotron-header {
     font-size: 300%;
@@ -48,10 +43,13 @@ body {
 }
 
 .sub-head{
+    margin: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* Visit */
 
 .visit-container   {
     padding-top: 30px;
@@ -67,29 +65,63 @@ body {
     margin-right: 10px;  
 }
 
-.creations-container   {
-    position: relative;
-    /* height: 100vh; */
-    width: 90%;
-    align-items: center;
-          
-} 
-
 .video-text {
-    /* width: 100vw; */
     padding-left: 30px;
     padding-right: 30px;
+    font-size: 26px;
 }
+
+
 .Quotes {
-    /* width: 100vw; */
     font-family: 'Dancing Script', cursive;
+    font-size: 26px;
     padding-left: 30px;
     padding-right: 30px;
 }
+
 
 .Birthday-offer {
     margin-top:30px;
 }
+
+
+
+/* Creations */
+.row {
+    display:flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.column {
+    font-size: 24px;
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    margin-bottom:20px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
 
 /*Bridal Page CSS overides*/
 
@@ -116,7 +148,7 @@ body {
 /*Contact us Page CSS overides*/
 
 .contact-body {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 30px;
     padding-right: 30px;
 }
