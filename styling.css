@@ -49,6 +49,22 @@ body {
     justify-content: center;
 }
 
+.footer{
+    background-color: rgb(73, 2, 64);
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-top: 5px;
+    width: 100%;
+    /* padding: 5px; */
+    display: flex;
+    font-size: xx-small;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 /* Visit */
 
 .visit-container   {
