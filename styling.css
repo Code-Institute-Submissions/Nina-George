@@ -17,7 +17,7 @@ body {
 
 
 .callout-container {
-    height: 50vh;
+    height: 40vh;
     background: url(images/front-page.jpg) no-repeat center ;
     opacity: 0.5;
     background-size: cover;
@@ -49,30 +49,45 @@ body {
     justify-content: center;
 }
 
-.footer{
+ #footer{
     background-color: rgb(73, 2, 64);
     color: #FFFFFF;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-right: 20px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-    padding-top: 5px;
-    width: 100%;
-    /* padding: 5px; */
     display: flex;
     font-size: xx-small;
     text-align: center;
-    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 5px;
+    width: 100%;
+
+}
+
+.sm-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.social-med {
+    display: flex;
     justify-content: center;
 }
+
 /* Visit */
 
 .visit-container   {
-    padding-top: 30px;
+    /* padding-top: 30px; */
     padding-right: 50px;
     padding-left: 50px;
     align-items: center;
     justify-content: center; 
+    display: flex;
 } 
 
 .bg-color {
