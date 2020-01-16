@@ -1,5 +1,6 @@
 <!---->
-Your Project's Name
+Nina-George Jewels
+
 One or two paragraphs providing an overview of your project.
 
 Essentially, this part is your sales pitch.
