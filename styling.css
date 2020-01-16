@@ -4,6 +4,7 @@ body {
     padding-top: 100px;
     font-family: 'Crimson Text', serif;
     font-size: 100%;
+    background-color: #f8f9fa;
 }
 
 .navbar {
@@ -53,7 +54,7 @@ body {
     background-color: rgb(73, 2, 64);
     color: #FFFFFF;
     display: flex;
-    font-size: xx-small;
+    font-size: small;
     text-align: center;
     justify-content: center;
     flex-direction: column;
@@ -70,8 +71,8 @@ body {
 }
 
 .sm-icon {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
 }
 
 .social-med {
@@ -82,8 +83,8 @@ body {
 /* Visit */
 
 .visit-container   {
-    /* padding-top: 30px; */
     padding-right: 50px;
+    padding-bottom: 50px;
     padding-left: 50px;
     align-items: center;
     justify-content: center; 
@@ -137,9 +138,18 @@ body {
 
 .column img {
     margin-top: 8px;
-    margin-bottom:25px;
+    margin-bottom:40px;
     vertical-align: middle;
     width: 100%;
+  }
+
+  .creations-cursor {
+  cursor: pointer;
+  }
+  
+
+  .rounded-corners {
+      border-radius: 50%;
   }
 
   @media screen and (max-width: 800px) {
