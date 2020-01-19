@@ -1,7 +1,7 @@
 <!---->
 Nina-George Jewels
 
-One or two paragraphs providing an overview of your project.
+This is my MS1 project and is a website for a family member's bespoke jewellery business.  
 
 Essentially, this part is your sales pitch.
 
