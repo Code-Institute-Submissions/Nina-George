@@ -98,6 +98,7 @@ body {
     margin-top:30px; 
     margin-left: 30px;
     margin-right: 10px;  
+    margin-bottom: 30px;
 }
 
 .video-text {
@@ -170,6 +171,13 @@ body {
 /*Contact us Page CSS overides*/
 
 .contact-body {
+    padding-bottom: 50px;
+    scroll-behavior: smooth;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#contactform{    
     padding-bottom: 100px;
     scroll-behavior: smooth;
     padding-left: 30px;
