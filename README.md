@@ -50,8 +50,7 @@ During testing I had issues with the footer, originally taking the bootstrap foo
 There are links to the contact us page on the creations and visit workshop pages to allow the user to watch the workshop video, see the portfolio of samples and then book an appointment.  The birthday promotion is also on both these pages - (future dev, allow promo codes added to contact page for discounted purchases)
 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
+------------------------------
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 Contact form:
@@ -79,6 +78,6 @@ Credits
 Content
 The text for section Y was copied from the Wikipedia article Z
 Media
-The photos used in this site were obtained from ...
+The photos used in this site were obtained from Golden Queen Face book page with their kind permission
 Acknowledgements
 I received inspiration for this project from X

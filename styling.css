@@ -19,7 +19,7 @@ body {
 
 
 .callout-container {
-    height: 40vh;
+    height: 55vh;
     background: url(images/front-page.jpg) no-repeat center ;
     opacity: 0.5;
     background-size: cover;
@@ -41,6 +41,7 @@ body {
 .jumbotron-header {
     font-size: 300%;
     margin-bottom:0px;
+    margin-top:0px;
     text-align:center;
 }
 
@@ -148,9 +149,15 @@ body {
   }
   
 
-  .rounded-corners {
-      border-radius: 50%;
+  /* .rounded-corners {
+      border-radius: 50px;
+      
   }
+
+  .rounded-corners-long {
+    border-radius: 50px;
+ 
+} */
 
   @media screen and (max-width: 800px) {
     .column {

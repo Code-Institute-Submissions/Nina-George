@@ -63,51 +63,57 @@
 
     </div>
 
-        <form id="contactform">
 
-            <div class="form-group">
-                <label for="name">Your name</label>
-                <input type="text" class="form-control" id="name" aria-describedby="Yourname" placeholder="Name">
-            </div>
 
-            <div class="form-group">
+    <form id="contactform">
 
-                <label for="email-address">Email address</label>
-                <input type="email" class="form-control" id="email-address" aria-describedby="emailHelp"
-                    placeholder="Enter email">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                    else.</small>
-            </div>
+        <div class="form-group">
+            <label for="name">Your name</label>
+            <input type="text" class="form-control" id="name" aria-describedby="Yourname" placeholder="Name">
+        </div>
 
-            <div class="form-group">
-                <label for="Contact-number">Contact telephone number</label>
-                <input type="tel" class="form-control" id="Contact-number" placeholder="The best number to contact you">
-            </div>
+        <div class="form-group">
 
-            <div class="form-group">
-                <label for="text-area">Message</label>
-                <input type="text" textarea class="form-control" id="text-area" rows=5
-                    placeholder="Send us your message">
-            </div>
+            <label for="email-address">Email address</label>
+            <input type="email" class="form-control" id="email-address" aria-describedby="emailHelp"
+                placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                else.</small>
+        </div>
 
-            <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" required=1 id="contact-me">
-                <label class="form-check-label" for="contact-me">Yes, please contact me</label>
-            </div>
+        <div class="form-group">
+            <label for="Contact-number">Contact telephone number</label>
+            <input type="tel" class="form-control" id="Contact-number" aria-describedby="yourcontactnumber"
+                placeholder="The best number to contact you">
+        </div>
 
-            <button type="submit" input type="reset" onclick="myFunction()" class="btn btn-secondary">Submit</button>
+        <div class="form-group">
+            <label for="text-area">Message</label>
+            <input type="text" textarea class="form-control" id="text-area" aria-describedby="sendamessage"
+                placeholder="Send us a message">
+        </div>
 
-            <script>
-                function myFunction() {
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="contact-me">
+            <label class="form-check-label" for="contact-me">I have purchased from Golden Queen before</label>
+        </div>
+
+        <button type="submit" input type="reset" onclick="myFunction()" class="btn btn-secondary">Submit</button>
+
+ 
+        <script>
+            function myFunction() {
                 alert("The form was submitted");
-                }
-                </script>
+            }
+        </script>
 
-                       
-        </form>
+
+    </form>
     </div>
 
-   
+
+
+
     <div class="footer-row">
         <p>Copyright &copy; 2020 Golden Queen</p>
     </div>
