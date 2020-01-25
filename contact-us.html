@@ -60,6 +60,7 @@
     <div class="contact-body">
         <p><b>To arrange an appointment, please call us on +44 (0)1234 567891. </br> Alternatively you may leave us your
                 details and we will contact you.</b></p>
+        <p>Items marked * are required as a minimum to be able to contact you.</p>
 
     </div>
 
@@ -69,7 +70,7 @@
 
         <div class="form-row">
             <div class="col-sm-4">
-                <label for="name">Your name</label>
+                <label for="name">Your name*</label>
                 <input type="text" class="form-control" id="name" required aria-describedby="Yourname"
                     placeholder="Name">
             </div>
@@ -84,13 +85,13 @@
 
                 <!-- </div> -->
             </div>
-      
+
             <!-- <div class="form-row"> -->
             <div class="col-sm-4">
-                <label for="Contact-number">Contact telephone number</label>
-                <input type="tel" class="form-control" id="Contact-number" required 
-                pattern="[0-9]{10,}$"
-                aria-describedby="yourcontactnumber" placeholder="Please include your area code if this is not a mobile number">
+                <label for="Contact-number">Contact telephone number*</label>
+                <input type="tel" class="form-control" id="Contact-number" required pattern="[0-9]{11-18,}$"
+                    aria-describedby="yourcontactnumber"
+                    placeholder="Please include your area code if this is not a mobile number">
             </div>
         </div>
 
@@ -106,19 +107,31 @@
             <label class="form-check-label" for="contact-me">I have purchased from Golden Queen before</label>
         </div>
 
-        <button class="btn btn-secondary" type="submit">Submit form</button>
+        <button class="btn btn-secondary" type="submit" onclick="Thankyou()">Submit form</button>
 
 
-
-
-        <!-- <button type="submit" input type="reset" onclick="myFunction()" class="btn btn-secondary">Submit</button>
-
- 
         <script>
-            function myFunction() {
-                alert("The form was submitted");
+            function Thankyou() {
+                //if name is populated
+                var name = document.getElementById("name").value;
+                var text; "Thankyou - we will be in contact shortly";
+
+                // if telephone is populated
+                var name = document.getElementById("Contact-number").value;
+                var text; "Thankyou - we will be in contact shortly";
+                
+                if (name === "c") {
+                text = "Spot on! Good job!";
+            
+
+                // If the letter is anything else
+            } else {
+                text = "Waaay off..";
             }
-        </script> -->
+            document.getElementById("demo").innerHTML = text;
+            alert("Thankyou - we will be in contact shortly");
+            }
+        </script>
 
 
     </form>

@@ -72,35 +72,28 @@ One issue I came across was during testing was that vscode is not case sensitive
 
 The images were ovalo shaped to begin with (rectangle images set to border radius 50%) but because on the dimensions the images showed in different sizes so I changed these to circle images which stacked much better on desktop and mobile view.
 
+The video plays on all devices but I would have liked automatic fill screen then reduce back on end of play.
 
+The contact form requires Name and Telephone number as a minimum for contact purposes and you can't submit this without population of these as the form will highlight these fields and remind you.  I found some intermittent issues here though dependant upon user cache settings where repeated entry allows the submission of an empty form on Android.  I have not yet rectified this or found a fix.
 
+On desktop the contact form is spread out across the screen and stacked up on mobile.
 
-------------------------------
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-
+The success message returned is a js message which appears as a pop up at the top on the screen or as an overlay on iphone and android.
 
 Deployment
 I used Git hub as a hosting platform for this project.  I set up an account on github, opened a repository (https://github.com/Flossie38/Nina-George.git) and the live site is deplyed to https://flossie38.github.io/Nina-George/.
 
-There are no differences between the deployed version and the dev version.
+There are no differences between the deployed version and the dev version other than case sensitivity present in the deployed version that does not exist when working in VScode.
 
 
 
 Credits
 
 Content
-Text content was written by me from scratch.
+copy content was written by me from scratch.
 
 Media
-The photos and workshop video used in this site were obtained from Golden Queen Face book page with kind permission of Roxanna Simionescu of the Golden Queen family Bucharest.
+The photos and workshop video used in this site were obtained from Golden Queen Face book page with kind permission of Roxanna Simionescu, Nina Simionescu and George Simionescu of the Golden Queen family Bucharest.
 
 Acknowledgements
-I received inspiration for this project from the Golden Queen Facebook page
+I received inspiration for this project from the Golden Queen Facebook page and conversations with the Roxanna Simionescu.
